@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vrijwilligershuis</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo-header"src="assets/img/logo-small.svg" alt="logo">
+        <span> VrijwilligersHuis<br>Nieuwegein </span>
+    </header>
+    <content><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae nunc sed velit dignissim sodales ut eu sem. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Ultrices sagittis orci a scelerisque purus semper eget duis. Sed odio morbi quis commodo odio aenean sed. Egestas sed tempus urna et pharetra. Id volutpat lacus laoreet non. Nibh praesent tristique magna sit amet purus gravida. Lacus sed turpis tincidunt id aliquet risus. Etiam sit amet nisl purus in. Eleifend quam adipiscing vitae proin sagittis. Senectus et netus et malesuada.
+
+Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Risus pretium quam vulputate dignissim suspendisse in est ante. Diam in arcu cursus euismod quis viverra nibh cras. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Pharetra magna ac placerat vestibulum lectus. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Ultrices dui sapien eget mi proin sed libero enim. Massa tincidunt nunc pulvinar sapien. Gravida quis blandit turpis cursus in. Vestibulum mattis ullamcorper velit sed. Urna duis convallis convallis tellus id interdum. Morbi tincidunt augue interdum velit euismod in. Quam nulla porttitor massa id neque. Libero volutpat sed cras ornare. Mattis nunc sed blandit libero volutpat. Integer vitae justo eget magna fermentum iaculis. Sit amet commodo nulla facilisi nullam.
+
+Viverra accumsan in nisl nisi scelerisque eu ultrices. Posuere lorem ipsum dolor sit amet. Aliquam malesuada bibendum arcu vitae elementum curabitur. Arcu felis bibendum ut tristique et egestas quis ipsum. Laoreet suspendisse interdum consectetur libero. Amet commodo nulla facilisi nullam vehicula ipsum a. Eros donec ac odio tempor orci. Feugiat scelerisque varius morbi enim nunc. Tellus at urna condimentum mattis. Leo vel orci porta non pulvinar neque. At tellus at urna condimentum mattis. Dolor magna eget est lorem. Semper quis lectus nulla at volutpat diam ut venenatis. Venenatis lectus magna fringilla urna. At varius vel pharetra vel turpis nunc eget lorem dolor. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. At imperdiet dui accumsan sit amet. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Accumsan sit amet nulla facilisi morbi tempus. Amet massa vitae tortor condimentum lacinia quis.
+
+Massa tempor nec feugiat nisl pretium fusce. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Malesuada nunc vel risus commodo viverra maecenas. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Suspendisse sed nisi lacus sed. Molestie a iaculis at erat pellentesque adipiscing commodo. Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Libero volutpat sed cras ornare arcu. Massa ultricies mi quis hendrerit dolor magna eget est. Curabitur vitae nunc sed velit dignissim. Pharetra et ultrices neque ornare aenean euismod elementum. Donec adipiscing tristique risus nec feugiat in fermentum. Vehicula ipsum a arcu cursus vitae congue.
+
+Laoreet non curabitur gravida arcu ac. Enim blandit volutpat maecenas volutpat. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. Lorem dolor sed viverra ipsum. Aenean et tortor at risus viverra. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Gravida quis blandit turpis cursus in. Ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. At ultrices mi tempus imperdiet nulla. Et pharetra pharetra massa massa. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur.
+
+Velit dignissim sodales ut eu sem integer. Diam volutpat commodo sed egestas. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Pharetra convallis posuere morbi leo urna. Nulla facilisi etiam dignissim diam. Lacus suspendisse faucibus interdum posuere lorem. Amet nulla facilisi morbi tempus iaculis. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Dictumst quisque sagittis purus sit amet. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Placerat vestibulum lectus mauris ultrices eros in cursus. Nibh venenatis cras sed felis eget velit. Augue ut lectus arcu bibendum at varius vel pharetra. Vestibulum lorem sed risus ultricies tristique.
+
+Suspendisse in est ante in nibh mauris cursus mattis. Mauris pharetra et ultrices neque ornare aenean euismod. Elit eget gravida cum sociis natoque penatibus et magnis. Viverra orci sagittis eu volutpat. Vulputate dignissim suspendisse in est ante in nibh mauris. Proin libero nunc consequat interdum varius sit. Urna nunc id cursus metus aliquam. Sagittis eu volutpat odio facilisis mauris. Ut aliquam purus sit amet luctus. Sit amet consectetur adipiscing elit. Dictumst quisque sagittis purus sit amet. Ullamcorper dignissim cras tincidunt lobortis feugiat. Amet commodo nulla facilisi nullam vehicula ipsum a. Sociis natoque penatibus et magnis dis parturient montes. Nulla pharetra diam sit amet nisl suscipit. Posuere urna nec tincidunt praesent. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Egestas sed tempus urna et pharetra pharetra massa.
+
+Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Enim nec dui nunc mattis enim ut tellus elementum. Nec ullamcorper sit amet risus nullam eget felis eget. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Lacus sed viverra tellus in hac habitasse. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Id neque aliquam vestibulum morbi. Sed odio morbi quis commodo odio aenean sed adipiscing. Lacinia at quis risus sed. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Elementum curabitur vitae nunc sed velit. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus. Non arcu risus quis varius. Orci porta non pulvinar neque laoreet suspendisse interdum. Orci ac auctor augue mauris augue neque. Ornare massa eget egestas purus. Nunc sed velit dignissim sodales ut eu. Leo vel fringilla est ullamcorper eget nulla.</p></content>
+    <footer>
+        <div class="prefooter"> <p>Ontvang maandelijks al het nieuws voor vrijwilligers!</p></div>
+
+    </footer>
+</body>
+
+</html>
