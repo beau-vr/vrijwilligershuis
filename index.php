@@ -28,6 +28,14 @@
     <h2>test</h2>
     <p>testtesttesets</p>
   </div>
+  <div class="column" style="background-color:#fff;">
+    <h2>test</h2>
+    <p>testtesttesets</p>
+  </div>
+  <div class="column" style="background-color:#000000;">
+    <h2>test</h2>
+    <p>testtesttesets</p>
+  </div>
 </div>
 </content>
     <footer>
