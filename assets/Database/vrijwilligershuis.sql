@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 30 mrt 2022 om 15:28
+-- Gegenereerd op: 01 apr 2022 om 15:16
 -- Serverversie: 10.4.11-MariaDB
 -- PHP-versie: 7.4.5
 
@@ -28,6 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `indienen` (
+  `id` int(11) NOT NULL,
   `naam` text NOT NULL,
   `tussenvoegsel` text NOT NULL,
   `achternaam` text NOT NULL,
@@ -42,12 +43,45 @@ CREATE TABLE `indienen` (
 --
 
 CREATE TABLE `reactie` (
+  `id` int(11) NOT NULL,
   `naam` text NOT NULL,
   `tussenvoegsel` text DEFAULT NULL,
   `achternaam` text NOT NULL,
   `e-mail` text NOT NULL,
   `reactie` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Indexen voor geëxporteerde tabellen
+--
+
+--
+-- Indexen voor tabel `indienen`
+--
+ALTER TABLE `indienen`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexen voor tabel `reactie`
+--
+ALTER TABLE `reactie`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT voor geëxporteerde tabellen
+--
+
+--
+-- AUTO_INCREMENT voor een tabel `indienen`
+--
+ALTER TABLE `indienen`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT voor een tabel `reactie`
+--
+ALTER TABLE `reactie`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

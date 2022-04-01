@@ -1,5 +1,29 @@
 <?php
 
+require "config/dbconn.php";
+if(isset($_POST['submit'])){
+    $voornaam = $_POST['voornaam'];
+    $tussenvoegsel = $_POST['tussenvoegsel'];
+    $achternaam = $_POST['achternaam'];
+    $email = $_POST['e-mail'];
+    $vraag = $_POST['reactie'];
+    // create query
+    $sql = "INSERT INTO `indienen`(`voornaam`, `tussenvoegsel`, `achternaam`,`e-mail`, `vraag`) VALUES ('$voornaam','$tussenvoegsel', '$achternaam', '$email', '$reactie')";
+
+   
+    
+    if ($con->query($sql) === TRUE) {
+        // executed query successfully
+    
+        
+    } else {
+        
+        echo "Error: " . $sql . "<br>" . $con->error;
+        }
+        
+    
+    $con->close(); 
+ }
 
 ?>
 <!DOCTYPE html>
