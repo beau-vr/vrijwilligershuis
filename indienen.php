@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
     $email = $_POST['e-mail'];
     $vraag = $_POST['vraag'];
     // create query
-    $sql = "INSERT INTO `indienen`(`voornaam`, `tussenvoegsel`, `achternaam`,`e-mail`, `vraag`) VALUES ('$voornaam','$tussenvoegsel', '$achternaam', '$email', '$vraag')";
+    $sql = "INSERT INTO `indienen`(`naam`, `tussenvoegsel`, `achternaam`,`e-mail`, `vraag`) VALUES ('$voornaam','$tussenvoegsel', '$achternaam', '$email', '$vraag')";
 
    
     // attempting to execute the query
@@ -41,7 +41,23 @@ if(isset($_POST['submit'])){
         <span> VrijwilligersHuis<br>Nieuwegein </span>
     </header>
 <content>
-    <br><br><br><br><br><br><br>
+    <br><br><br><br><br>
+    <div>
+    <form id="form" action="" method="post"> <span style= color:black>
+           <br>
+           Uw naam: <input id="voornaam" type="text" name="voornaam" placeholder="Voornaam" /> <br>
+           Uw tussenvoegsel <input id="tussenvoegsel" type="text" name="tussenvoegsel" placeholder="Tussenvoegsel" /> <br>
+           Uw achternaam: <input id="achternaam" type="text" name="achternaam" placeholder="Achternaam" /> <br>
+           Uw e-mail: <input id="e-mail" type="text" name="e-mail" placeholder="E-mail" /> <br>
+          <div id="bveld"> Uw vraag:</span></div><textarea form="form" id="vraag" name="vraag" ></textarea> <br>
+                    <input type="submit" name="submit" value="Versturen"/>
+        </form>
+    </div>
+    <br><br>
+
+        <button onclick="getlocation();"> positie zien</button> 
+        <div id="demo" style="width: 600px; height: 400px; margin-left: 200px;">
+
 </content>
     <footer>
         <div class="prefooter"> <p>Ontvang maandelijks al het nieuws voor vrijwilligers!</p></div>
@@ -49,4 +65,5 @@ if(isset($_POST['submit'])){
     </footer>
 </body>
 <script src="assets/js/script.js"></script>
+<script src="https://maps.google.com/maps/api/js?sensor=false"> </script>
 </html>

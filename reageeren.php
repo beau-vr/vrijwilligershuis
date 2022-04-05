@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
     $email = $_POST['e-mail'];
     $vraag = $_POST['reactie'];
     // create query
-    $sql = "INSERT INTO `indienen`(`voornaam`, `tussenvoegsel`, `achternaam`,`e-mail`, `vraag`) VALUES ('$voornaam','$tussenvoegsel', '$achternaam', '$email', '$reactie')";
+    $sql = "INSERT INTO `reactie`(`voornaam`, `tussenvoegsel`, `achternaam`,`e-mail`, `reactie`) VALUES ('$voornaam','$tussenvoegsel', '$achternaam', '$email', '$reactie')";
 
    
     
@@ -41,7 +41,19 @@ if(isset($_POST['submit'])){
         <span> VrijwilligersHuis<br>Nieuwegein </span>
     </header>
 <content>
-    <br><br><br><br><br><br><br>
+    <br><br><br><br><br>
+    <div>
+    <form id="form" action="" method="post"> <span style= color:black>
+           <br>
+           Uw naam: <input id="voornaam" type="text" name="voornaam" placeholder="Voornaam" /> <br>
+           Uw tussenvoegsel <input id="tussenvoegsel" type="text" name="tussenvoegsel" placeholder="Tussenvoegsel" /> <br>
+           Uw achternaam: <input id="achternaam" type="text" name="achternaam" placeholder="Achternaam" /> <br>
+           Uw e-mail: <input id="e-mail" type="text" name="e-mail" placeholder="E-mail" /> <br>
+          <div id="bveld"> Uw reactie:</span></div><textarea form="form" id="reactie" name="reactie" ></textarea> <br>
+                    <input type="submit" name="submit" value="Versturen"/>
+        </form>
+    </div>
+    <br><br><br><br>
 </content>
     <footer>
         <div class="prefooter"> <p>Ontvang maandelijks al het nieuws voor vrijwilligers!</p></div>
