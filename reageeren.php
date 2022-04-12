@@ -2,13 +2,13 @@
 
 require "config/dbconn.php";
 if(isset($_POST['submit'])){
-    $voornaam = $_POST['voornaam'];
+    $voornaam = $_POST['naam'];
     $tussenvoegsel = $_POST['tussenvoegsel'];
     $achternaam = $_POST['achternaam'];
     $email = $_POST['e-mail'];
     $vraag = $_POST['reactie'];
     // create query
-    $sql = "INSERT INTO `reactie`(`voornaam`, `tussenvoegsel`, `achternaam`,`e-mail`, `reactie`) VALUES ('$voornaam','$tussenvoegsel', '$achternaam', '$email', '$reactie')";
+    $sql = "INSERT INTO `reactie`(`naam`, `tussenvoegsel`, `achternaam`,`e-mail`, `reactie`) VALUES ('$voornaam','$tussenvoegsel', '$achternaam', '$email', '$reactie')";
 
    
     

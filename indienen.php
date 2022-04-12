@@ -56,6 +56,8 @@ if(isset($_POST['submit'])){
     <br><br>
 
         <button onclick="getlocation();"> positie zien</button> 
+        <button onclick="getLocation()">Try It</button>
+        <p id="demo"></p>
         <div id="demo" style="width: 600px; height: 400px; margin-left: 200px;">
 
 </content>

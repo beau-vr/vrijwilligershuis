@@ -1,5 +1,5 @@
 <?php
-// s
+require "config/dbconn.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +17,7 @@
     </header>
     <content>
         <br><br><br><br><br>
-        <? $sql = "SELECT * FROM `indienen` WHERE naam LIKE '$val%' ORDER BY naam";    
+        <?php $sql = "SELECT * FROM `indienen`";    
  if ($result = $conn->query($sql)) {
    $str = "<ul style='list-style-type:none; margin:0; padding:0; margin-top:60px'>";
    while ($row = $result->fetch_assoc()) {
@@ -29,27 +29,7 @@
  }
  $conn->close();
  ?><br><br>
-    <h2>meerlezen</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
-<button onclick="readmore()" id="myBtn">Read more</button>
-    <br>
-    <br>    
-<div class="row">
-  <div class="column" style="background-color:#aaa;">
-    <h2>test</h2>
-    <p>testetstest</p>
-  </div>
-  <div class="column" style="background-color:#bbb;">
-    <h2>test</h2>
-    <p>testtesttesets</p>
-  </div>
-  <div class="column" style="background-color:#fff;">
-    <h2>test</h2>
-    <p>testtesttesets</p>
-  </div>
-  <div class="column" style="background-color:#6E2585;">
-    <h2>test</h2>
-    <p>testtesttesets</p>
+    
   </div>
 </div>
 </content>
